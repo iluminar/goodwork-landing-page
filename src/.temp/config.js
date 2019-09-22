@@ -1,5 +1,5 @@
 export default {
-  "siteUrl": "https://iluminar.github.io",
+  "siteUrl": "https://usegood.work",
   "siteName": "Goodwork",
   "titleTemplate": "%s - Goodwork",
   "siteDescription": "",

@@ -1,4 +1,4 @@
-import plugin_gridsome_plugin_tailwindcss_4 from "/src/js/landing-page-src/node_modules/gridsome-plugin-tailwindcss/gridsome.client.js"
+import plugin_gridsome_plugin_tailwindcss_4 from "/src/js/goodwork-landing-page/node_modules/gridsome-plugin-tailwindcss/gridsome.client.js"
 
 export default [
   {

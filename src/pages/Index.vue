@@ -137,18 +137,24 @@
           <div class="flex flex-col items-center lg:w-1/2">
             <div class="text-4xl text-gray-700 pb-12">Sponsors</div>
             <div class="flex flex-row flex-wrap pb-12">
-              <a href="https://www.patreon.com/bePatron?u=19641984" class="text-5xl text-gray-600 border-2 border-blue-200 border-dashed rounded-full w-16 h-16 lg:w-32 lg:h-32 mx-4 flex items-center justify-center cursor-pointer bg-gray-100 hover:shadow-lg hover:-mt-1" title="Become a patron - add your logo here">
+              <a href="https://opencollective.com/goodwork#sponsor" class="text-5xl text-gray-600 border-2 border-blue-200 border-dashed rounded-full w-16 h-16 lg:w-32 lg:h-32 mx-4 flex items-center justify-center cursor-pointer bg-gray-100 hover:shadow-lg hover:-mt-1" title="Become a patron - add your logo here">
                 <g-image src="~/assets/images/iluminar-logo.svg" class="w-32 h-32 opacity-25 hover:opacity-100"/>
               </a>
-              <a href="https://www.patreon.com/bePatron?u=19641984" v-for="x in 2" class="no-underline text-5xl text-gray-600 border-2 border-blue-200 border-dashed rounded-full w-16 h-16 lg:w-32 lg:h-32 mx-4 flex items-center justify-center cursor-pointer bg-gray-100 hover:shadow-lg hover:-mt-1" title="Become a patron - add your logo here">
+              <a href="https://opencollective.com/goodwork#sponsor" v-for="x in 2" class="no-underline text-5xl text-gray-600 border-2 border-blue-200 border-dashed rounded-full w-16 h-16 lg:w-32 lg:h-32 mx-4 flex items-center justify-center cursor-pointer bg-gray-100 hover:shadow-lg hover:-mt-1" title="Become a patron - add your logo here">
                 +
               </a>
               <div></div>
             </div>
             <div class="pb-12 px-6 text-gray-700">
-              You can support Goodwork project to keep moving by becoming a patron
+              You can support Goodwork project to keep moving by becoming a sponsor on <a href="https://opencollective.com/goodwork/">open</a>
             </div>
             <div>
+              <a href="https://opencollective.com/goodwork#sponsor">
+                <img src="https://opencollective.com/goodwork/sponsors.svg" alt="">
+              </a>
+              <a href="https://opencollective.com/goodwork#backer">
+                <img src="https://opencollective.com/goodwork/backers.svg" alt="">
+              </a>
               <a href="https://www.patreon.com/bePatron?u=19641984" target="_blank" rel="noopener noreferrer" class="px-6 py-3  flex items-center no-underline rounded-full shadow" style="background-color: hsl(7.8, 77.9%, 59.2%)">
                   <svg class="w-4 h-4 mr-2" viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle fill="#fff" id="Oval" cx="362.589996" cy="204.589996" r="204.589996"></circle><rect fill="#000" id="Rectangle" x="0" y="0" width="100" height="545.799988"></rect></g></svg>
                 Become a Patron!
@@ -164,12 +170,12 @@
       <contributors></contributors>
 
       <section class="py-16 bg-blue-100">
-        <div class="container mx-auto">
+        <div class="container md:mx-auto px-4">
           <div class="flex justify-center pb-8 text-teal-800 text-3xl font-semibold">
             Pricing
           </div>
-          <div class="flex justify-center">
-            <div class="w-96 bg-white rounded-l-lg shadow flex flex-col items-center justify-between p-8">
+          <div class="flex flex-col md:flex-row justify-center">
+            <div class="md:w-96 bg-white rounded-lg md:rounded-r-none shadow flex flex-col items-center justify-between py-8 lg:p-8 mb-8 md:mb-0">
               <div class="text-teal-700 uppercase font-semibold">
                 Self Hosted
               </div>
@@ -183,7 +189,7 @@
                 <a href="https://github.com/iluminar/goodwork/wiki/Installation" class="flex justify-center items-center border-teal-700 border-2 px-6 py-3 rounded-full text-teal-700 text-lg hover:shadow-2xl font-semibold no-underline">Install Goodwork</a>
               </div>
             </div>
-            <div class="w-96 bg-white rounded-r-lg shadow flex flex-col items-center justify-between p-8">
+            <div class="md:w-96 bg-white rounded-lg md:rounded-l-none shadow flex flex-col items-center justify-between py-8 lg:p-8">
               <div class="text-indigo-600 uppercase font-semibold">
                 Managed Solution
               </div>
