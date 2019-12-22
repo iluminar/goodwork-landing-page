@@ -24,9 +24,9 @@
           <a href="https://goodworkfor.life/register/invite-link/ovCPAFpnwIhrvqUrlvynarP9HVRBC5mH" class="text-white no-underline py-1 font-medium">Join Goodwork</a>
         </div>
         <div class="lg:px-4 pt-4 lg:pt-0 lg:mx-8 flex flex-col lg:border-0">
-          <a href="http://localhost:3000/docs/contribution-guideline" class="text-white no-underline py-1 font-medium">Contributing</a>
+          <a href="https://github.com/iluminar/goodwork/wiki/Contribution-Guideline" class="text-white no-underline py-1 font-medium">Contributing</a>
           <a href="" class="text-white no-underline py-1 font-medium">Knowledge Base</a>
-          <a href="http://localhost:3000/docs/contribution-guideline" class="text-white no-underline py-1 font-medium">Developer Guide</a>
+          <a href="https://github.com/iluminar/goodwork/wiki/Contribution-Guideline" class="text-white no-underline py-1 font-medium">Developer Guide</a>
           <a href="https://github.com/iluminar/goodwork" class="text-white no-underline py-1 font-medium">Github</a>
         </div>
       </div>
