@@ -21,4 +21,4 @@ jobs:
         npm install
         npm install --global @gridsome/cli gh-pages
         gridsome build
-        gh-pages -d dist -b master -r https://${{secrets.ACCESS_TOKEN}}@github.com/iluminar/iluminar.github.io.git -u "Hasnayeen <searching.nehal@gmail.com>"
+        gh-pages -d dist -b gh-pages -r https://${{secrets.ACCESS_TOKEN}}@github.com/iluminar/github-landing-page.git -u "Hasnayeen <searching.nehal@gmail.com>"
