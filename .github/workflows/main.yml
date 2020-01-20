@@ -1,0 +1,24 @@
+name: CI-CD
+
+on:
+  push:
+    branches: master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@master
+    - name: setup node
+      uses: actions/setup-node@v1
+      with:
+        version: 10
+    
+    - name: npm install, build and deploy
+      run: |
+        npm install
+        npm install --global @gridsome/cli gh-pages
+        gridsome build
+        gh-pages -d dist -b master -r https://${{secrets.ACCESS_TOKEN}}@github.com/iluminar/iluminar.github.io.git -u "Hasnayeen <searching.nehal@gmail.com>"
