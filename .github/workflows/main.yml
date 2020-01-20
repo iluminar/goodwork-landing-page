@@ -16,9 +16,15 @@ jobs:
       with:
         version: 10
     
-    - name: npm install, build and deploy
+    - name: npm install & build
       run: |
         npm install
         npm install --global @gridsome/cli gh-pages
         gridsome build
-        gh-pages -d dist -b gh-pages -r https://${{secrets.ACCESS_TOKEN}}@github.com/iluminar/github-landing-page.git -u "Hasnayeen <searching.nehal@gmail.com>"
+
+    - name: deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
