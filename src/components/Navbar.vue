@@ -6,7 +6,7 @@
           <g-image src="~/assets/images/logo-white-bg.svg" class="h-10 w-10"/>
         </a>
         <a href="/" class="hidden lg:block text-gray-700 text-2xl font-semibold pl-2 uppercase no-underline">Goodwork</a>
-        <a href="https://github.com/iluminar/goodwork/releases" class="hidden lg:block bg-teal-200 ml-4 px-3 py-1 rounded-full text-teal-900 text-xs font-bold tracking-wide">v0.9</a>
+        <a href="https://github.com/iluminar/goodwork/releases" class="hidden lg:block bg-teal-200 ml-4 px-3 py-1 rounded-full text-teal-900 text-xs font-bold tracking-wide">v0.10</a>
       </div>
 
       <div @click="showMobileMenu" class="pr-2 cursor-pointer lg:hidden">
