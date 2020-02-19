@@ -3,5 +3,5 @@ export default {
   "siteName": "Goodwork",
   "titleTemplate": "%s - Goodwork",
   "siteDescription": "",
-  "version": "0.6.5"
+  "version": "0.6.9"
 }

@@ -7,6 +7,13 @@
     <navbar></navbar>
 
     <main>
+      <div class="bg-indigo-900 text-center py-4 lg:px-4">
+        <a href="https://goodwork.cloud" class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+          <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">New</span>
+          <span class="font-semibold mr-2 text-left flex-auto">Join priority list for early access to Goodwork Cloud</span>
+          <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+        </a>
+      </div>
       <section class="px-4 lg:px-0 lg:my-12 lg:max-w-4xl xl:max-w-6xl lg:mx-auto xxl:max-w-8xl flex flex-row w-full lg:items-center hero text-gray-700">
         <div class="lg:w-1/2 lg:mr-8 hidden lg:flex justify-center relative rounded shadow-2xl">
           <g-image src="./../assets/images/hero-image.png" />
@@ -34,10 +41,8 @@
           </div>
           <div class="mt-8 mb-4 flex flex-col lg:flex-row">
             <!-- <a href="" class="flex justify-center px-6 py-3 mb-4 lg:mb-0 lg:mr-4 rounded-full border-teal-700 text-teal-700 border-2 text-lg font-semibold no-underline">Get Started</a> -->
-            <a href="https://github.com/iluminar/goodwork/wiki/Installation" class="flex justify-center items-center bg-teal-700 px-6 py-3 rounded-full text-white text-lg hover:bg-teal-500 hover:shadow-2xl font-semibold no-underline">Install Goodwork</a>
-            <a href="https://github.com/iluminar/goodwork" class="lg:ml-4 mt-4 lg:mt-0 flex items-center justify-center border-teal-700 lg:border-white border-2 rounded-full">
-              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github w-12 h-12 text-teal-700 rounded-full" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
-            </a>
+            <a href="https://github.com/iluminar/goodwork/wiki/Installation" class="flex justify-center items-center px-6 py-3 mr-4 rounded-full text-teal-700 border-teal-700 border-2 text-lg hover:bg-teal-700 hover:text-white hover:shadow-2xl font-semibold no-underline">Install Goodwork</a>
+            <a href="https://goodwork.cloud" class="flex justify-center items-center px-6 py-3 rounded-full text-indigo-700 border-indigo-700 border-2 text-lg hover:bg-indigo-700 hover:text-white hover:shadow-2xl font-semibold no-underline">Try Goodwork Cloud</a>
           </div>
           <div class="text-sm text-gray-700">
             Open source <a href="https://github.com/iluminar/goodwork/blob/master/LICENSE" class="text-gray-700 underline">MIT Licensed</a>.
@@ -146,7 +151,7 @@
               <div></div>
             </div>
             <div class="pb-12 px-6 text-gray-700">
-              You can support Goodwork project to keep moving by becoming a sponsor on <a href="https://opencollective.com/goodwork/">open</a>
+              <a href="https://opencollective.com/goodwork/">You can support Goodwork project to keep moving by becoming a sponsor ➜</a>
             </div>
             <div>
               <a href="https://opencollective.com/goodwork#sponsor">
@@ -154,10 +159,6 @@
               </a>
               <a href="https://opencollective.com/goodwork#backer">
                 <img src="https://opencollective.com/goodwork/backers.svg" alt="">
-              </a>
-              <a href="https://www.patreon.com/bePatron?u=19641984" target="_blank" rel="noopener noreferrer" class="px-6 py-3  flex items-center no-underline rounded-full shadow" style="background-color: hsl(7.8, 77.9%, 59.2%)">
-                  <svg class="w-4 h-4 mr-2" viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle fill="#fff" id="Oval" cx="362.589996" cy="204.589996" r="204.589996"></circle><rect fill="#000" id="Rectangle" x="0" y="0" width="100" height="545.799988"></rect></g></svg>
-                Become a Patron!
               </a>
             </div>
           </div>
@@ -191,16 +192,16 @@
             </div>
             <div class="md:w-96 bg-white rounded-lg md:rounded-l-none shadow flex flex-col items-center justify-between py-8 lg:p-8">
               <div class="text-indigo-600 uppercase font-semibold">
-                Managed Solution
+                Managed
               </div>
               <div class="text-5xl text-gray-700">
                 Custom
               </div>
               <div class="text-center text-gray-700 py-4 px-8">
-                Get your own individual hosted solution with full privacy of your data.
+                Let us worry about managing infrastructure and focus on your project.
               </div>
               <div>
-                <a href="mailto:searching.nehal@gmail.com" class="flex justify-center items-center border-indigo-600 border-2 px-6 py-3 rounded-full text-indigo-600 text-lg hover:shadow-2xl font-semibold no-underline">Send a Query</a>
+                <a href="https://goodwork.cloud" class="flex justify-center items-center border-indigo-600 border-2 px-6 py-3 rounded-full text-indigo-600 text-lg hover:shadow-2xl font-semibold no-underline">Try goodwork.cloud</a>
               </div>
             </div>
           </div>
@@ -211,7 +212,7 @@
         <div class="container mx-auto flex flex-col items-center">
           <div class="text-2xl lg:text-4xl text-gray-700 pb-8">Join The Community</div>
           <div class="flex flex-col lg:flex-row">
-            <a href="https://join.slack.com/t/iluminar/shared_invite/enQtNDY0Mzc3NDkwOTY1LTJhZTNiYmMxZmE4NGU5MTJhODI5OWMyNjc4ZmIyNDVhODRhMGUzNDU0MmM1OGRmZjBiYWM0NjcwNWRjMDJjNTA" class="no-underline bg-white text-pink-700 shadow px-4 py-3 mb-2 lg:mb-0 mx-2 rounded-full">Join Slack Community</a>
+            <a href="https://discord.gg/4DvTQsc" class="no-underline bg-white text-pink-700 shadow px-4 py-3 mb-2 lg:mb-0 mx-2 rounded-full">Join Discord Community</a>
             <a href="https://goodworkfor.life/register/invite-link/ovCPAFpnwIhrvqUrlvynarP9HVRBC5mH" class="no-underline bg-white text-pink-700 shadow px-4 py-3 mx-2 rounded-full">Join Goodwork Project</a>
           </div>
         </div>
