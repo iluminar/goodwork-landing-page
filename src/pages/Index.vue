@@ -184,7 +184,7 @@
                 Free<span class="text-base">/Forever</span>
               </div>
               <div class="text-center text-gray-700 py-4 px-8">
-                For teams who wants to maintain everything by themselves.
+                For teams who want to maintain everything by themselves.
               </div>
               <div>
                 <a href="https://github.com/iluminar/goodwork/wiki/Installation" class="flex justify-center items-center border-teal-700 border-2 px-6 py-3 rounded-full text-teal-700 text-lg hover:shadow-2xl font-semibold no-underline">Install Goodwork</a>
